@@ -20,3 +20,25 @@ A lightweight, real-time performance profiler for Node.js applications that trac
 npm install runtime-perf --save-dev
 # or
 yarn add runtime-perf --dev
+
+## Basic Usage 🛠️
+
+const { ExecutionTracker } = require('runtime-perf');
+
+const tracker = new ExecutionTracker();
+
+// Wrap your functions
+const trackedFunction = tracker.wrapFunction(function expensiveOperation() {
+  // Your code here
+}, 'expensiveOperation');
+
+// Execute
+trackedFunction();
+
+// Generate report
+console.table(tracker.generateReport());
+
+## CLI Usage
+npx runtime-perf monitor your-script.js
+# With flamegraph generation
+npx runtime-perf monitor your-script.js --flamegraph
