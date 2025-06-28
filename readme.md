@@ -1,7 +1,7 @@
 # runtime-perf 🚀
 
 [![npm version](https://img.shields.io/npm/v/runtime-perf.svg)](https://www.npmjs.com/package/runtime-perf)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A lightweight, real-time performance profiler for Node.js applications that tracks function execution times, memory usage, and CPU bottlenecks with minimal overhead.
 
