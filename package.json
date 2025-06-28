@@ -1,0 +1,26 @@
+{
+  "name": "runtime-perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "profile": "node bin/cli.js"
+  },
+  "bin": {
+    "runtime-perf": "bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "commander": "^14.0.0",
+    "d3-flame-graph": "^4.1.3",
+    "fs-extra": "^11.3.0",
+    "perf_hooks": "^0.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3"
+  }
+}
