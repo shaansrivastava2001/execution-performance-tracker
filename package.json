@@ -10,7 +10,18 @@
   "bin": {
     "runtime-perf": "bin/cli.js"
   },
-  "keywords": [],
+  "keywords": [
+    "performance",
+    "profiler",
+    "benchmark",
+    "monitoring",
+    "nodejs",
+    "optimization",
+    "flamegraph",
+    "metrics",
+    "analysis",
+    "debugging"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
